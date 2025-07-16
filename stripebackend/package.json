@@ -1,0 +1,23 @@
+{
+  "name": "stripebackend",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Tamule",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js localhost 8080"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "stripe": "^18.3.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "keywords": []
+}
