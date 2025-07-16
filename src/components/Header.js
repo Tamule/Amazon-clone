@@ -4,14 +4,14 @@ import {Link} from "react-router-dom";
 import {auth} from "../firebase";
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
-import {onAuthStateChanged , signOut } from 'firebase/auth';
+import {onAuthStateChanged } from 'firebase/auth';
 import {useStateValue} from "../StateProvider";
 
 
 
 
 function Header() {
-    const[{basket}, dispatch] = useStateValue();
+    const[{basket}] = useStateValue();
     const [user, setUser] = useState({});
     onAuthStateChanged(auth, (currentUser) => {
         setUser(currentUser);

@@ -1,5 +1,5 @@
 // src/screens/Success.js
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
 import 'react-toastify/dist/ReactToastify.css';
