@@ -1,3 +1,45 @@
+# 🛒 Amazon Clone (React + Stripe)
+
+A fully functional Amazon-style ecommerce frontend built with React. This clone includes a modern UI, real payment integration via Stripe, and smart UX enhancements like toast notifications, formatted currency, and component reusability.
+
+---
+
+## 🚀 Live Demo
+
+🔗 **Live Site:** https://tame-amazon-clone.netlify.app/
+💻 **GitHub Repo:** [github.com/Tamule/amazon-clone](https://github.com/Tamule/amazon-clone)
+
+---
+
+## ✨ Features
+
+- 🏠 Beautiful Amazon-style homepage with products and hero section
+- 📦 Reusable product card components
+- 🛒 Fully functional **shopping cart**
+- 💳 **Stripe Checkout** for real-time payments
+- 🔢 Price formatting using **react-number-format**
+- 🔔 **React Toastify** for alerts and feedback
+- 📬 **Axios** used for backend communication (e.g., payment handling)
+- 🌐 **Responsive design** across devices
+
+---
+
+## ⚙️ Tech Stack
+
+| Tech / Library            | Usage                                    |
+|---------------------------|------------------------------------------|
+| React                     | UI development framework                 |
+| React Router              | Page routing/navigation                  |
+| Stripe                    | Payment gateway integration              |
+| Axios                     | API communication (Stripe backend)       |
+| React Number Format       | Currency formatting                      |
+| React Toastify            | Notification system                      |
+| Context API / useState    | Global state management                  |
+| CSS / Flexbox / Grid      | Responsive and modular styling           |
+
+-
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
